@@ -31,6 +31,8 @@ figcaption {
 h4 {
 	font-weight: bold;
 	font-size: 16pt;
+	padding: 0px;
+	margin: 0px;
 }
 
 .navbar {
@@ -85,7 +87,8 @@ h4 {
 	margin-right: auto;
 	margin-bottom: 15px;
 	border: solid 1px #c0c0c0;
-	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	background-color: #FFFFFF;
 }
 
@@ -110,7 +113,6 @@ h4 {
 
 
 .header {
-	margin-top: 20px;
 	border-bottom: solid 2px #c0c0c0;
 }
 
@@ -121,6 +123,8 @@ h4 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 20px;
+	margin-top: 0px;
 }
 
 .benefits {

@@ -24,6 +24,15 @@ a.navitem:link { color: #fdfdfd !important; }
 a.navitem:visited { color: #fdfdfd !important; }
 a.navitem:hover { color: #ffffff !important; }
 
+figcaption {
+	font-size: 12pt;
+}
+
+h4 {
+	font-weight: bold;
+	font-size: 16pt;
+}
+
 .navbar {
 	width: 100%;
 	background-color: #343a40;
@@ -36,6 +45,11 @@ a.navitem:hover { color: #ffffff !important; }
 	padding: 10px;
 }
 
+.nav-content {
+	margin-top: 0px;
+	padding: 15px;
+}
+
 .navbar-active {
 	color: #ffffff;
 }
@@ -46,6 +60,16 @@ a.navitem:hover { color: #ffffff !important; }
 	padding: 0px;
 	margin-top: 0px;
 	color: rgba(255,255,255,.75);
+}
+
+.footer-content {
+	margin: 0px;
+	padding: 0px;
+}
+
+.footer-cookie {
+	color: #7380d9;
+	text-align: center;
 }
 
 .container {
@@ -85,7 +109,7 @@ a.navitem:hover { color: #ffffff !important; }
 
 .header-img {
 	text-align: center;
-	width: 40%;
+	width: 50%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -99,9 +123,9 @@ a.navitem:hover { color: #ffffff !important; }
 }
 
 .benefits p::before {
-	content: "\2713";
-	color: green;
+	content: url("../img/check.png");
 	padding-right: 5px;
+	vertical-align: middle;
 }
 
 .list-unstyled {
@@ -126,6 +150,8 @@ a.navitem:hover { color: #ffffff !important; }
     text-align: center;
 }
 
-figcaption {
-	font-size: 12pt;
+.img-thumb {
+	margin: 5px;
+	width: 40%;
+	float: right;
 }

@@ -54,6 +54,11 @@ h4 {
 	color: #ffffff;
 }
 
+.navbar-image {
+	width: 32px;
+	vertical-align:middle
+}
+
 .footer {
 	width: 100%;
 	background-color: #343a40;
@@ -105,6 +110,7 @@ h4 {
 
 .header {
 	margin-top: 20px;
+	border-bottom: solid 2px #c0c0c0;
 }
 
 .header-img {
@@ -154,4 +160,12 @@ h4 {
 	margin: 5px;
 	width: 40%;
 	float: right;
+}
+
+.sfbutton {
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 88px;
+	display: block;
 }

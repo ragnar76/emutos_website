@@ -172,6 +172,20 @@ h4 {
 	display: block;
 }
 
+.benefits-list {
+	list-style-type: none;
+	font-weight: bold;
+}
+
+.benefits-spacer {
+	margin-top: 15px;
+}
+
+.hiddenbullet {
+	list-style-type: none;
+	display: inline;
+}
+
 li li {
-	list-style-type: square;
+	list-style-type: disc;
 }

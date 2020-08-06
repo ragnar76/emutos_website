@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta content="cache" http-equiv="Pragma">
     <meta content="INDEX,FOLLOW" name="robots">
     <meta content="EmuTOS is a Free operating system for computers based on Motorola 680x0 or ColdFire microprocessors."
       name="description">
@@ -12,6 +13,7 @@
     <meta content="Alle" name="audience">
     <meta content="Produktinfo" name="page-type">
     <meta content="Computer" name="page-topic">
+    <meta content="" http-equiv="Reply-to">
     <meta content="" name="expires">
     <meta content="2 days" name="revisit-after">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
@@ -31,10 +33,10 @@
     </div>
     <div class="container">
       <div class="content">
-        <div class="header"> <a href="index.html"><img class="header-img" src="assets/img/emutos_header_shadow.png"
-              alt="the EmuTOS header logo"></a> </div>
+        <div class="header"> <a href="index.html"><img class="header-img" src="assets/img/emutos_header_shadow.png"></a>
+        </div>
         <div class="page">
-          <h1>Welcome to EmuTOS</h1>
+          <h4>Welcome to EmuTOS</h4>
           <figure class="img-fig"> <a href="assets/img/emutos_main_screenshot.png"
               target="_blank"> <img class="img-thumb" src="assets/img/emutos_main_screenshot.png"
                 alt="A screenshot from the desktop of EmuTOS"> </a> <figcaption>
@@ -61,7 +63,7 @@
             scratch. There is no code written by Atari in EmuTOS. It is
             distributed under the <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GNU
               General Public License, version 2 (GPLv2)</a>.</p>
-          <h2>EmuTOS is Free Software, so it is better than TOS in several ways:</h2>
+          <h4>EmuTOS is Free Software, so it is better than TOS in several ways:</h4>
           <div class="benefits">
             <p><span class="checkmarks">✔</span> It can be freely used and
               redistributed with emulators respecting the GPL licence. This

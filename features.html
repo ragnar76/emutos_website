@@ -27,49 +27,38 @@
       </div>
       <div class="page">
         <h1>EmuTOS Features</h1>
-        <h2>The EmuTOS operating system has the following features:</h2>
+        <p>The EmuTOS operating system aims to be a superset of the original Atari TOS.
+        Like Atari TOS, it is single-user, single-tasking (with limited cooperative
+        multitasking via desk accessories). It is available in many configurations,
+        including those for 192KB, 256KB, and 512KB ROMs, which are suitable as drop-in
+        replacements for TOS in various Atari systems. It still lacks some features
+        of the later versions of Atari TOS, including the AES calls introduced by
+        TOS v3/v4, and support for the Falcon's DSP and 16-bit colour mode. We do
+        expect to implement the missing functionality in future releases.</p>
+        <p>However, it already surpasses TOS in some areas, by providing:</p>
         <ul>
-          <li>It has a fully TOS-compatible BIOS interface</li>
-          <li>It supports all ST(e)/TT XBIOS calls, plus many Falcon XBIOS calls</li>
-          <li>It supports all ST(e)/TT GEMDOS calls</li>
-          <li>It supports all ST(e)/TT VDI and lineA calls</li>
-          <li>It supports all ST(e) AES calls</li>
-          <li>It is single-tasking</li>
-          <li>It is for a single user</li>
-          <li>It is available in English and ten other languages</li>
-          <li>It is available in many configurations, including those for 192KB, 256KB, and 512KB ROMs</li>
-          <li>You can use two floppy disk drives</li>
-          <li>You can use up to 26 hard disk partitions</li>
-          <li>It supports both Atari-style and DOS-style FAT filesystems</li>
-          <li>Its console is VT52-compatible and supports up to 16 colors</li>
-          <li>It supports all Atari ST(e) and TT video modes, as well as most VIDEL modes</li>
-          <li>It provides an internal minimalistic shell called EmuCON</li>
-          <li>It can be used to load FreeMiNT, and later fVDI and XaAES</li>
+          <li>a builtin hard disk driver</li>
+          <li>(in most configurations) a builtin command-line interface (EmuCON2),
+          somewhat like the DOS command line</li> 
+          <li>support for ten languages in addition to English</li>
+          <li>(in all ROM configurations) a desktop (EmuDesk) with TOS2-like features</li>
         </ul>
-        <h2>EmuTOS supports the following hardware on Atari computers:</h2>
+        <p>As noted above, EmuTOS does not yet support all of the hardware on original
+        Atari systems. The following is a list of currently unsupported hardware:
+        </p>
         <ul>
-          <li>CPU: m68000, m68008, m68010, m68020, m68030, m68040, m68060, Apollo 68080, ColdFire V4e</li>
-          <li>FPU: SFP004, 68881, 68882, builtin FPU on m68040/m68060</li>
-          <li>Memory controller (ST(e), TT, Falcon)</li>
+          <li>Falcon DSP</li>
+          <li>16-bit modes of Falcon Videl</li>
+        </ul>
+        <p>All other standard Atari hardware is supported. In addition, EmuTOS has builtin
+        support for the following hardware, depending on the selected configuration:</p>
+        <ul>
+          <li>CPU: Motorola m68020, m68040, m68060; Apollo 68080; ColdFire V4e</li>
+          <li>FPU: builtin FPU on m68040/m68060</li>
           <li>Some third-party add-on memory cards, including Magnum, MonSTer</li>
-          <li>Monitor type detection (mono or not)</li>
-          <li>WD 1772 Floppy disk controller</li>
-          <li>DMA controller</li>
-          <li>ACSI, SCSI, IDE interfaces</li>
-          <li>MFP (both MFPs on the TT)</li>
-          <li>SCC (TT, Falcon)</li>
-          <li>YM 2149</li>
-          <li>ST(e)/TT shifter</li>
-          <li>VIDEL (partially)</li>
           <li>Nova graphics adapter</li>
-          <li>ACIAs, IKBD protocol</li>
-          <li>MegaST Real Time Clock(RTC), plus many third-party RTCs</li>
-          <li>NVRAM (including RTC)</li>
-          <li>DMA sound</li>
-          <li>Blitter</li>
-          <li>Microwire</li>
+          <li>Many third-party Real Time Clocks</li>
         </ul>
-        <p>Due to size constraints, the 192KB and 256KB ROMs do not support all of the above features and hardware.</p>
         <p>For a list of compatible emulators, see the <a href="links.html">links page</a>.</p>
       </div>
     </div>

@@ -232,6 +232,7 @@ li li {
   margin-right: auto;
   background-image: url(../img/atari_bg.png);
   padding: 0px;
+   border-spacing: 0;
 }
 
 .show_icons_menu {

@@ -206,41 +206,33 @@ li li {
   display: inline;
 }
 
-.cursor_container {
-  width: 80%;
-  border: solid 1px #000000;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.show_cursors {
+.rsc_container {
   width: 80%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.showcase_cursors td {
-  padding: 15px;
-}
-
-.show_icons {
-  width: 80%;
-  border: solid 1px #000000;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px;
   background-image: url(../img/atari_bg.png);
-  padding: 0px;
-   border-spacing: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-.show_icons_menu {
+.rsc_table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 0px;
+}
+
+.rsc_table img {
+  margin: 5px;
+}
+
+.rsc_table img:hover {
+  -webkit-filter: invert(100%);
+}
+
+.rsc_menu {
   background-color: #ffffff;
   border-bottom: solid 1px #000000;
-  padding: 0px;
-}
-
-.invert_icons:hover {
-  -webkit-filter: invert(100%);
 }

@@ -236,3 +236,21 @@ li li {
   background-color: #ffffff;
   border-bottom: solid 1px #000000;
 }
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF55; /* Green */
+  color: white;
+}

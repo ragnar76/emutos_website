@@ -175,6 +175,11 @@ li li {
   width: 350px;
 }
 
+.list-benefits {
+  list-style: none;
+  display: inline
+}
+
 .text-center {
   text-align: center;
 }

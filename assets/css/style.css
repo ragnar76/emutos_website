@@ -44,6 +44,11 @@ li li {
   font-weight: bold;
 }
 
+.bold_bigger {
+  font-weight: bold;
+  font-size: 16pt;
+}
+
 .navbar {
   width: 100%;
   background-color: #343a40;
@@ -269,7 +274,7 @@ li li {
 }
 
 .button:hover {
-  background-color: #4CAF55;
+  background-color: #bababa;
   /* Green */
   color: white;
 }
